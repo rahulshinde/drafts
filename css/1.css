@@ -1,5 +1,5 @@
 /* 	================= 
-		MAIN.CSS
+		1.CSS
 	================= */
 
 
@@ -57,31 +57,3 @@ table {
 /* 	==============================================
 		BEGIN AUTHOR STYLING
 	============================================== */
-
-* {
-	/*color: blue;*/
-}
-
-body {
-	background-color: red;
-	/*outline: 1px solid rgb(0,0,255);*/
-}
-
-.container {
-	height: 100%;
-	width: 100%;
-}
-
-ul {
-	margin: 20%;
-}
-
-li {
-	line-height: 50px;
-	font-size: 30px;
-}
-
-a:link,
-a:visited {
-	color: white;
-}
