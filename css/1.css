@@ -57,3 +57,156 @@ table {
 /* 	==============================================
 		BEGIN AUTHOR STYLING
 	============================================== */
+
+/*div {
+	border: 1px solid blue;
+}*/
+
+body {
+	background-color: black;
+}
+
+.logo img {
+	width: 76%;
+	margin-left: 12%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+#three-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+}
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+
+/*heading*/
+
+.logo h1 {
+	width: 90%;
+	margin-left: 5%;
+
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+	font-size: 40px;
+	color: white;
+	line-height: 48px;
+
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+}
+
+.underline {
+	letter-spacing: -4px;
+}
+
+/*three-column*/
+
+.about h1 {
+
+	font-family: 'Tienne', serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 30px;
+	color: white;
+
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	line-height: 48px;
+}
+
+p {
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+/* 	=============================
+		IMG STYLING
+	============================= */
+
+.logo a:link,
+.logo a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	font-style: italic;
+}
+
+/* 	=============================
+		THREE COLUMN STYLING
+	============================= */
+
+.three-column {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.about,
+.internal,
+.external {
+	width: 32%;
+	float: left;
+	height: 300px;
+}
+
+.about {
+	margin-left: 2%;
+}
+
+/* 	=============================
+		THREE COLUMN STYLING
+	============================= */
+
+.two-column {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.tools,
+.sale {
+	width: 40%;
+	float: left;
+	height: 300px;
+}
+
+.tools {
+	margin-left: 10%;
+}
