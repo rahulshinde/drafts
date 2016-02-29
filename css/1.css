@@ -70,7 +70,7 @@ table {
 
 body {
 	/*background-color: black;*/
-	background-image: url('http://www.lastwordonnothing.com/wp-content/uploads/2011/07/2000px-Book_red_question_marks.png');
+	/*background-image: url('http://www.lastwordonnothing.com/wp-content/uploads/2011/07/2000px-Book_red_question_marks.png');*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 30%;
@@ -104,11 +104,12 @@ h1 {
 }
 
 h2 {
-	padding: 30px 10px 10px 10px;
+	padding: 30px 10px 0 10px;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	line-height: 19px;
 }
 
 h3 {
@@ -121,9 +122,18 @@ h3 {
 }
 
 p {
-	padding: 0 15px 0 15px;
+	padding: 20px 15px 15px 15px;
 	font-family: 'PT Mono', monospace;
 	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.author-name {
+	margin-left: -2px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
 	font-size: 13px;
 }
 
@@ -202,6 +212,7 @@ p {
 	left: -1000px;
 	bottom: 0;
 	width: 50%;
+	overflow-y:scroll;
 	background-color: white;
 	border-right: 1px solid red;
 	z-index: 10;
@@ -214,6 +225,7 @@ p {
 	right: -1000px;
 	bottom: 0;
 	width: 50%;
+	overflow-y:scroll;
 	background-color: white;
 	border-left: 1px solid red;
 	z-index: 10;
@@ -229,7 +241,6 @@ p {
 	width: 80%;
 	margin-top: 100px;
 	margin-left: 10%;
-	margin-bottom: 50px;
 	/* Typography */
 	/* Visual */
 	border: 1px solid red;
@@ -239,7 +250,46 @@ p {
 	/* Misc */
 }
 
-td {
+ul {
+	width: 100%;
+    display: table;
+    table-layout: fixed; /* optional, for equal spacing */
+    border-collapse: collapse;
+}
+
+.ch1 {
+	background-image: url('../img/title1.png');
+}
+.ch2 {
+	background-image: url('../img/title2.png');
+}
+.ch3 {
+	background-image: url('../img/title3.png');
+}
+.ch4 {
+	background-image: url('../img/title4.png');
+}
+.ch5 {
+	background-image: url('../img/title5.png');
+}
+.ch6 {
+	background-image: url('../img/title6.png');
+}
+.ch7 {
+	background-image: url('../img/title7.png');
+}
+.ch8 {
+	background-image: url('../img/title8.png');
+}
+.ch9 {
+	background-image: url('../img/title9.png');
+}
+.ch10 {
+	background-image: url('../img/title10.png');
+}
+
+li {
+
 	-webkit-transition: background-color 0.7s;
     -moz-transition: background-color 0.7s;
     -o-transition: background-color 0.7s;
@@ -249,13 +299,14 @@ td {
 	border-right: 1px solid red;
 	border-bottom: 1px solid red;
 
-	background-image: url('../img/title2.png');
+	display: table-cell;
+	/*vertical-align: middle;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 55%;
 }
 
-td:nth-child(5) {
+li:nth-child(5) {
 	border-right: none;
 }
 
@@ -263,7 +314,7 @@ td:nth-child(5) {
 	border-bottom: none;
 }
 
-td a {
+li a {
 	width: 15.9%;
 	position: absolute;
 	height: 500px;
@@ -275,7 +326,7 @@ a:hover {
 	cursor: default;
 }
 
-td:hover {
+li:hover {
 	background-color: red;
 }
 
