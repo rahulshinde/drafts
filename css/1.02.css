@@ -136,9 +136,38 @@ p {
 	font-size: 13px;
 }
 
-#click1,
+#click1 {
+	position: fixed;
+	top: 155px;
+	left: -500px;
+	
+	padding-bottom:10px;
+
+	-moz-transform: rotate(90deg);
+ 	-webkit-transform: rotate(90deg);
+  	transform: rotate(90deg);
+	z-index: 100;
+	border-top: 1px solid #ffe705;
+	border-left: 1px solid #ffe705;
+	border-right: 1px solid #ffe705;
+	background-color: white;
+}
+
 #click2 {
-	width: 100%;
+	position: fixed;
+	top: 155px;
+	right: -500px;
+	
+	padding-bottom:10px;
+
+	-moz-transform: rotate(-90deg);
+ 	-webkit-transform: rotate(-90deg);
+  	transform: rotate(-90deg);
+	z-index: 100;
+	border-top: 1px solid #ffcaca;
+	border-left: 1px solid #ffcaca;
+	border-right: 1px solid #ffcaca;
+	background-color: white;
 }
 
 /* 	=============================
@@ -264,34 +293,34 @@ ul {
 }
 
 .ch1 {
-	background-image: url('../img/1/title1.png');
+	background-image: url('../img/1.02/1.png');
 }
 .ch2 {
-	background-image: url('../img/1/title2.png');
+	background-image: url('../img/1.02/2.png');
 }
 .ch3 {
-	background-image: url('../img/1/title3.png');
+	background-image: url('../img/1.02/3.png');
 }
 .ch4 {
-	background-image: url('../img/1/title4.png');
+	background-image: url('../img/1.02/4.png');
 }
 .ch5 {
-	background-image: url('../img/1/title5.png');
+	background-image: url('../img/1.02/5.png');
 }
 .ch6 {
-	background-image: url('../img/1/title6.png');
+	background-image: url('../img/1.02/6.png');
 }
 .ch7 {
-	background-image: url('../img/1/title7.png');
+	background-image: url('../img/1.02/7.png');
 }
 .ch8 {
-	background-image: url('../img/1/title8.png');
+	background-image: url('../img/1.02/8.png');
 }
 .ch9 {
-	background-image: url('../img/1/title9.png');
+	background-image: url('../img/1.02/9.png');
 }
 .ch10 {
-	background-image: url('../img/1/title10.png');
+	background-image: url('../img/1.02/10.png');
 }
 
 li {
@@ -332,10 +361,30 @@ a:hover {
 	cursor: default;
 }
 
-li:hover {
-	background-color: #ffcaca;
+.ch1:hover,
+.ch6:hover {
+	background-color: #ffe705;
 }
 
+.ch2:hover,
+.ch7:hover {
+	background-color: #ffdb55;
+}
+
+.ch3:hover,
+.ch8:hover {
+	background-color: #ffd582;
+}
+
+.ch4:hover,
+.ch9:hover {
+	background-color: #ffcfa7;
+}
+
+.ch5:hover,
+.ch10:hover {
+	background-color: #ffcaca;
+}
 .tl {
 	border-radius: 10px 0 0 0;
 	-webkit-border-radius: 10px 0 0 0;
