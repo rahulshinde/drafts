@@ -118,7 +118,6 @@ h3 {
 	font-family: 'PT Serif Caption', serif;
 	font-weight: 400;
 	font-size: 28px;
-	color: red;
 }
 
 p {
@@ -170,7 +169,7 @@ p {
 	bottom: 0;
 	left: 0;
 	width:60px;
-	background-color: red;
+	background-color: #ffe705;
 	z-index: 100;
 
 }
@@ -187,7 +186,11 @@ p {
 	left: 60px;
 	height:60px;
 
-	background-color: red;
+	background: grey; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #ffe705 , #ffcaca); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #ffe705, #ffcaca); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #ffe705, #ffcaca); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #ffe705 , #ffcaca); /* Standard syntax */
 
 }
 
@@ -197,7 +200,7 @@ p {
 	right: 0;
 	bottom: 0;
 	width:60px;
-	background-color: red;
+	background-color: #ffcaca;
 	z-index: 100;
 
 }
@@ -214,7 +217,8 @@ p {
 	width: 50%;
 	overflow-y:scroll;
 	background-color: white;
-	border-right: 1px solid red;
+	color: #ffe705;
+	border-right: 1px solid #ffe705;
 	z-index: 10;
 
 }
@@ -227,7 +231,8 @@ p {
 	width: 50%;
 	overflow-y:scroll;
 	background-color: white;
-	border-left: 1px solid red;
+	color: #ffcaca;
+	border-left: 1px solid #ffcaca;
 	z-index: 10;
 
 }
@@ -244,7 +249,7 @@ p {
 	margin-bottom: 50px;
 	/* Typography */
 	/* Visual */
-	border: 1px solid red;
+	border: 1px solid #ffcaca;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -297,8 +302,8 @@ li {
     transition: background-color 0.7s;
 
 	height: 500px;
-	border-right: 1px solid red;
-	border-bottom: 1px solid red;
+	border-right: 1px solid #ffcaca;
+	border-bottom: 1px solid #ffcaca;
 
 	display: table-cell;
 	/*vertical-align: middle;*/
@@ -328,7 +333,7 @@ a:hover {
 }
 
 li:hover {
-	background-color: red;
+	background-color: #ffcaca;
 }
 
 .tl {
