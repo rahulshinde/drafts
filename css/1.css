@@ -63,12 +63,7 @@ table {
 }*/
 
 body {
-	background-color: black;
-}
-
-.logo img {
-	width: 76%;
-	margin-left: 12%;
+	/*background-color: black;*/
 }
 
 .container {
@@ -76,137 +71,85 @@ body {
 	height: 100%;
 }
 
-#three-container {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-	z-index: -100;
-}
-
 /* 	=============================
 		TEXT STYLING
 	============================= */
 
-a:link,
-a:visited {
-	color: white;
-	text-decoration: none;
+.title h1 {
+	margin-top: 20px;
+	font-size: 20px;
 }
 
-a:hover {
+.italic {
 	font-style: italic;
 }
 
-
-/*heading*/
-
-.logo h1 {
-	width: 90%;
-	margin-left: 5%;
-
+h1 {
+	color: white;
+	font-family: 'PT-Sans', sans-serif;
+	font-weight: 700;
 	text-align: center;
-	font-family: 'Kanit', sans-serif;
 	font-size: 40px;
-	color: white;
-	line-height: 48px;
-
-	padding-bottom: 30px;
-	border-bottom: 1px solid white;
-}
-
-.underline {
-	letter-spacing: -4px;
-}
-
-/*three-column*/
-
-.about h1 {
-
-	font-family: 'Tienne', serif;
-	font-size: 18px;
-	font-weight: 400;
-	text-align: left;
-	line-height: 30px;
-	color: white;
-
-}
-
-.heading {
-	text-align: center;
-	font-family: 'Kanit', sans-serif;
-	font-style: italic;
-	font-size: 20px;
-	color: white;
-	line-height: 48px;
-}
-
-p {
-	text-align: center;
-	width: 80%;
-	margin-left: 10%;
-	font-family: 'Kanit', sans-serif;
-	font-size: 20px;
-	line-height: 30px;
-}
-
-.bold {
-	font-weight: 800;
 }
 
 /* 	=============================
-		IMG STYLING
+		HEADERS
 	============================= */
 
-.logo a:link,
-.logo a:visited {
-	color: white;
-	text-decoration: none;
+.inner1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+ 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  	transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
-.logo a:hover {
-	font-style: italic;
+.inner2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+ 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  	transform:  translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
+.intro {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width:60px;
+	background-color: red;
+
+}
+
+.title {
+	position: fixed;
+	top: 0;
+	right: 60px;
+	left: 60px;
+	height:60px;
+
+	background-color: red;
+
+}
+
+.afterwards {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width:60px;
+	background-color: red;
+
 }
 
 /* 	=============================
-		THREE COLUMN STYLING
+		TABLE Styling
 	============================= */
 
-.three-column {
-	width: 100%;
-	margin-top: 30px;
+.table {
+	
 }
 
-.about,
-.internal,
-.external {
-	width: 32%;
-	float: left;
-	height: 300px;
-}
-
-.about {
-	margin-left: 2%;
-}
-
-/* 	=============================
-		THREE COLUMN STYLING
-	============================= */
-
-.two-column {
-	width: 100%;
-	margin-top: 30px;
-}
-
-.tools,
-.sale {
-	width: 40%;
-	float: left;
-	height: 300px;
-}
-
-.tools {
-	margin-left: 10%;
-}
