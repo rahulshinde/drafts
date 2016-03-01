@@ -136,6 +136,11 @@ p {
 	font-size: 13px;
 }
 
+#click1,
+#click2 {
+	cursor: pointer;
+}
+
 #click1 {
 	position: fixed;
 	top: 155px;
@@ -192,6 +197,14 @@ p {
   	transform:  translateX(-50%) translateY(-50%) rotate(90deg);
 }
 
+.intro,
+.afterwards {
+	-webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -o-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
 .intro {
 	position: fixed;
 	top: 0;
@@ -208,6 +221,18 @@ p {
 	cursor: pointer;
 }
 
+.intro:hover {
+	-webkit-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
+	box-shadow: 6px 0 7px rgba(0,0,0,0.3);
+}
+
+.afterwards:hover {
+	-webkit-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+}
+
 .title {
 	position: fixed;
 	top: 0;
@@ -220,6 +245,7 @@ p {
 	background: -o-linear-gradient(right, #ffe705, #ffcaca); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #ffe705, #ffcaca); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #ffe705 , #ffcaca); /* Standard syntax */
+	z-index: 200;
 
 }
 
@@ -243,7 +269,7 @@ p {
 	top: 60px;
 	left: -1000px;
 	bottom: 0;
-	width: 50%;
+	width: 600px;
 	overflow-y:scroll;
 	background-color: white;
 	color: #ffe705;
@@ -257,7 +283,7 @@ p {
 	top: 60px;
 	right: -1000px;
 	bottom: 0;
-	width: 50%;
+	width: 600px;
 	overflow-y:scroll;
 	background-color: white;
 	color: #ffcaca;
@@ -358,7 +384,7 @@ li a {
 }
 
 a:hover {
-	cursor: default;
+	/*cursor: default;*/
 }
 
 .ch1:hover,
