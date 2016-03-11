@@ -64,9 +64,9 @@ table {
 		BEGIN AUTHOR STYLING
 	============================================== */
 
-/*div {
+* {
 	border: 1px solid blue;
-}*/
+}
 
 body {
 	/*background-color: black;*/
