@@ -16,7 +16,8 @@ $(document).ready( function() {
 
     $("#click1").on("click", function() {
         $(".intro-text").animate({left: "-1000px"}, 750 );
-        $("#click1").animate({left: "-500px"}, 750 );       
+        $("#click1").animate({left: "-500px"}, 750 );
+        $(".intro-close").toggle();       
     });
 
     //afterwards
@@ -35,7 +36,8 @@ $(document).ready( function() {
 
     $("#click2").on("click", function() {
         $(".afterwards-text").animate({right: "-1000px"}, 750 );
-        $("#click2").animate({right: "-500px"}, 750 );    
+        $("#click2").animate({right: "-500px"}, 750 );
+        $(".intro-close").toggle();   
     });
 
 });
