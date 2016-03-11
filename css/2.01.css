@@ -242,6 +242,16 @@ p {
 	box-shadow: 6px 0 7px rgba(0,0,0,0.3);
 }
 
+/*.external-link {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width:60px;
+	background-color: rgba(0,0,0,0);
+	z-index: 100;
+}*/
+
 .afterwards:hover,
 .afterwards-close:hover {
 	-webkit-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
