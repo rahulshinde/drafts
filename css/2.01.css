@@ -488,6 +488,90 @@ a:hover {
 	background-color: red;
 }
 
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1050px) { 
+
+	/*container*/
+
+	.table-container {
+		width: 76%;
+		margin-left: 12%;
+	}
+
+	/*Typography*/
+
+	h2 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 10px;
+	}
+
+	.author-name {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 900px) { 
+
+	/*container*/
+
+	.table-container {
+		margin-bottom: 20px;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	li {
+
+		display: block;
+		height: 200px;
+		border: none;
+		border-bottom: 1px solid #ffcaca;
+	}
+
+	li a {
+		width: 70%;
+		position: absolute;
+		height: 200px;
+	}
+
+}
+
+@media (max-width: 750px) { 
+
+	/*container*/
+
+	.table-container {
+		margin-bottom: 20px;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	li {
+
+		display: block;
+		height: 200px;
+		border: none;
+		border-bottom: 1px solid #ffcaca;
+	}
+
+	li a {
+		width: 70%;
+		position: absolute;
+		height: 200px;
+	}
+
+}
+
+@media screen and (max-width: 500px) { 
+	
+
+}
+
 
 #fade {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
