@@ -247,7 +247,7 @@ p {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width:60px;
+	width:40px;
 	background-color: rgba(0,0,0,1);
 	z-index: 200;
 	display: none;
@@ -258,7 +258,7 @@ p {
 	top: 0;
 	bottom: 0;
 	right: 0;
-	width:60px;
+	width:40px;
 	background-color: rgba(0,0,0,1);
 	z-index: 200;
 	display: none;
@@ -278,7 +278,7 @@ p {
 	left: 60px;
 	height:60px;
 
-	background: grey; /* For browsers that do not support gradients */
+	background: #ffcaca; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(left, #ffe705 , #ffcaca); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(right, #ffe705, #ffcaca); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #ffe705, #ffcaca); /* For Firefox 3.6 to 15 */
@@ -543,31 +543,33 @@ a:hover {
 
 @media (max-width: 750px) { 
 
-	/*container*/
+	/*navigation*/
 
-	.table-container {
-		margin-bottom: 20px;
-		width: 70%;
-		margin-left: 15%;
+	.intro,
+	.afterwards {
+		width: 40px;
 	}
+
+	.title {
+		right: 40px;
+		left: 40px;
+		height:40px;
+
+		background: #ffcaca; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left, #ffe705 , #ffcaca); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(right, #ffe705, #ffcaca); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(right, #ffe705, #ffcaca); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to right, #ffe705 , #ffcaca); /* Standard syntax */
+		z-index: 300;
+
+	}
+
 	
-	li {
-
-		display: block;
-		height: 200px;
-		border: none;
-		border-bottom: 1px solid #ffcaca;
-	}
-
-	li a {
-		width: 70%;
-		position: absolute;
-		height: 200px;
-	}
 
 }
 
 @media screen and (max-width: 500px) { 
+	
 	
 
 }
