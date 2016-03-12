@@ -90,7 +90,12 @@ a:visited {
 
 img {
 	position: fixed;
-	top: -70px;
-	width: 100%;
-	z-index: -100;
+	top: -30px;
+	width: 70%;
+	margin-left: 15%;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, rgba(255,255,255,0)); /* Standard syntax */
 }
