@@ -547,21 +547,13 @@ a:hover {
 
 	.intro,
 	.afterwards {
-		width: 30px;
+		width: 40px;
 	}
 
 	.title {
-		right: 30px;
-		left: 30px;
-		height:30px;
-
-		background: #ffcaca; /* For browsers that do not support gradients */
-		background: -webkit-linear-gradient(left, #ffe705 , #ffcaca); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(right, #ffe705, #ffcaca); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(right, #ffe705, #ffcaca); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(to right, #ffe705 , #ffcaca); /* Standard syntax */
-		z-index: 300;
-
+		right: 40px;
+		left: 40px;
+		height:40px;
 	}
 
 	
@@ -570,6 +562,18 @@ a:hover {
 
 @media screen and (max-width: 500px) { 
 	
+	/*navigation*/
+
+	.intro,
+	.afterwards {
+		width: 30px;
+	}
+
+	.title {
+		right: 30px;
+		left: 30px;
+		height:30px;
+	}	
 	
 
 }
