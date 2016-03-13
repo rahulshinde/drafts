@@ -58,9 +58,9 @@ table {
 		BEGIN AUTHOR STYLING
 	============================================== */
 
-* {
-	/*color: blue;*/
-}
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
 
 body {
 	background-color: red;
