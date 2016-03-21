@@ -411,10 +411,10 @@ ul {
 
 li {
 
-	-webkit-transition: background-color 0.7s;
+	/*-webkit-transition: background-color 0.7s;
     -moz-transition: background-color 0.7s;
     -o-transition: background-color 0.7s;
-    transition: background-color 0.7s;
+    transition: background-color 0.7s;*/
 
 	height: 500px;
 	border-right: 1px solid #ffcaca;
@@ -424,7 +424,7 @@ li {
 	/*vertical-align: middle;*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 65%;
+    background-size: 500%;
 }
 
 li:nth-child(5) {
@@ -450,26 +450,31 @@ a:hover {
 .ch1:hover,
 .ch6:hover {
 	background-color: #ffe705;
+	background-image: none;
 }
 
 .ch2:hover,
 .ch7:hover {
 	background-color: #ffdb55;
+	background-image: none;
 }
 
 .ch3:hover,
 .ch8:hover {
 	background-color: #ffd582;
+	background-image: none;
 }
 
 .ch4:hover,
 .ch9:hover {
 	background-color: #ffcfa7;
+	background-image: none;
 }
 
 .ch5:hover,
 .ch10:hover {
 	background-color: #ffcaca;
+	background-image: none;
 }
 .tl {
 	border-radius: 10px 0 0 0;
