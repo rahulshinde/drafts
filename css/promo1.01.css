@@ -87,7 +87,8 @@ h1 {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 75px;
+	letter-spacing: 2px;
 	color: blue;
 
 	animation: blinker 2s linear infinite;
@@ -102,6 +103,26 @@ h1 {
     ======================= */
 
 @media (max-width: 1050px) { 
-
+	h1 {
+		font-size: 65px;
+	}
 }
 
+@media (max-width: 900px) { 
+	h1 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 700px) { 
+	h1 {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 550px) { 
+	h1 {
+		top: 30%;
+		font-size: 25px;
+	}
+}
