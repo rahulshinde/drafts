@@ -342,11 +342,6 @@ p {
 
 	.pub-link,
 	.vid-link {
-/*		-webkit-transition: background-image 0.1s;
-    	-moz-transition: background-image 0.1s;
-    	-o-transition: background-image 0.1s;
-    	transition: background-image 0.1s;*/
-
 		position: fixed;
 		width: 120px;
 		height: 120px;
@@ -815,7 +810,7 @@ a:hover {
 	}
 
 
-	.main-text {
+	.info-text {
 		display: none;
 	}
 
@@ -857,7 +852,16 @@ a:hover {
 	.ch10 {
 		background-color: #ffcaca
 	}
+
+	/* links*/
 	
+	.pub-link {
+		left:50px;
+	}
+
+	.vid-link {
+		right:50px;
+	}
 
 }
 
