@@ -1,0 +1,181 @@
+/* 	================= 
+		CHAPTER1.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+body {
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+.ch-heading {
+	margin-top: 40px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 38px;
+	color: blue;
+}
+
+.ch-authors {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 400;
+	color: blue;
+}
+
+.ch-manifest {
+	margin-bottom: 10px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+	font-size: 32px;
+	line-height: 37px;
+	color: #ffcaca;
+}
+
+.ch-interview {
+	/*color:#ffcaca;*/
+}
+
+.interview1 {
+	text-decoration: underline;
+}
+
+.ch-pull {
+	float: left;
+	width: 40%;
+	padding-bottom: 15px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 34px;
+	text-align: center;
+	line-height: 46px;
+	color: #ffcaca;
+
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.ch-a-descriptions {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: blue;
+}
+
+#pull2 {
+	margin-top: 25px;
+}
+
+#pull3 {
+	margin-top: 25px;
+}
+
+
+/* 	=============================
+		IMG
+	============================= */
+
+.img-half {
+	float: right;
+	width: 50%;
+}
+
+#img1 {
+	margin-top: 13px;
+}
+
+iframe {
+	float: right;
+	width: 50%;
+	margin-top: 30px;
+}
+
+/* 	=============================
+		HEADERS
+	============================= */
+
+
+.link-back {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 60px;
+	background-color: rgba(0,0,0,0);
+	z-index: 200;
+}
+
+.link-forward {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width:60px;
+	background-color: rgba(0,0,0,0);
+	z-index: 200;
+	display: block;
+}
+
+.link-space {
+	color: rgba(0,0,0,0);
+}
+
+/* 	=============================
+		CONTAINER
+	============================= */
+
+.title-container {
+	margin-top: 100px;
+}
+
+.content-container {
+
+}
+
+.title-container,
+.content-container {
+	/* Box-model */
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	/* Typography */
+	/* Visual */
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/* Misc */
+}
+
+.no-border {
+	border: none;
+}

@@ -69,12 +69,6 @@ table {
 }*/
 
 body {
-	/*background-color: black;*/
-	/*background-image: url('http://www.lastwordonnothing.com/wp-content/uploads/2011/07/2000px-Book_red_question_marks.png');*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 30%;
-    background-position: center; 
 }
 
 .container {
@@ -103,6 +97,10 @@ body {
 
 .italic {
 	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 h1 {
