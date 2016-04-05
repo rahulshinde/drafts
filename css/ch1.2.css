@@ -1,0 +1,187 @@
+/* 	================= 
+		CHAPTER1.2.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+body {
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+.ch-heading {
+	margin-top: 40px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 45px;
+	line-height: 58px;
+	color: blue;
+}
+
+.ch-authors {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: blue;
+}
+
+.ch-manifest {
+	margin-bottom: 10px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+	font-size: 28px;
+	line-height: 37px;
+	color: #ffcaca;
+}
+
+.ch-interview {
+	width: 70%;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	font-family: 'PT Serif Caption', serif;
+	text-align: left;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.interview1 {
+	font-style: italic;
+}
+
+.ch-pull {
+	float: right;
+	width: 56%;
+	padding: 2%;
+	margin-right: 5%;
+	padding-bottom: 15px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 34px;
+	text-align: center;
+	line-height: 46px;
+	color: #ffcaca;
+
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.ch-a-descriptions {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: blue;
+}
+
+
+/* 	=============================
+		IMG
+	============================= */
+
+.img-half {
+	float: right;
+	width: 60%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+
+iframe {
+	float: right;
+	width: 60%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+
+/* 	=============================
+		HEADERS
+	============================= */
+
+
+.link-back {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 60px;
+	background-color: rgba(0,0,0,0);
+	z-index: 200;
+}
+
+.link-forward {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width:60px;
+	background-color: rgba(0,0,0,0);
+	z-index: 200;
+	display: block;
+}
+
+.link-space {
+	color: rgba(0,0,0,0);
+}
+
+/* 	=============================
+		CONTAINER
+	============================= */
+
+.title-container {
+	margin-top: 100px;
+}
+
+.content-container {
+
+}
+
+.title-container,
+.content-container {
+	/* Box-model */
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	/* Typography */
+	/* Visual */
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/* Misc */
+}
+
+.no-border {
+	border: none;
+}
+
+.line-bottom {
+	padding-bottom: 40px;
+	border-radius: 0px;
+	border-bottom: 1px solid #ffcaca;
+}
