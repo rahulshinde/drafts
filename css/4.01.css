@@ -76,6 +76,10 @@ body {
 	height: 100%;
 }
 
+.coming-soon {
+	display: none;
+}
+
 /* 	=============================
 		TEXT STYLING
 	============================= */
@@ -673,6 +677,16 @@ a:hover {
 
 @media (max-width: 750px) {
 
+	.coming-soon {
+		position: fixed;
+		bottom: 10px;
+		width: 100%;
+		display: block;
+		color: blue;
+		font-size: 16px;
+
+	}
+
 	/*typography*/
 	.title h1 {
 		margin-top: 12px;
@@ -743,7 +757,7 @@ a:hover {
 
 	/*typography*/
 	.title h1 {
-		margin-top: 9px;
+		padding-top: 7px;
 		font-size: 16px;
 	}
 
