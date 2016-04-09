@@ -191,6 +191,11 @@ iframe {
 	border-bottom: 1px solid #ffcaca;
 }
 
+#no-bottom {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
 /*  =======================
     MEDIA QUERIES
     ======================= */
