@@ -685,7 +685,12 @@ a:hover {
 
 	/*navigation*/
 
-	.ch1,
+	.ch1 {
+		background-image: none;
+		border-bottom: none;
+		border-radius: 10px;
+	}
+
 	.ch2,
 	.ch3,
 	.ch4,
@@ -694,9 +699,8 @@ a:hover {
 	.ch7,
 	.ch8,
 	.ch9,
-	.ch10
-	 {
-		background-image: none;
+	.ch10 {
+		display: none;
 	}
 
 	.table-container {
