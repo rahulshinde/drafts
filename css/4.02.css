@@ -225,9 +225,7 @@ p {
 }
 
 .intro,
-.intro-close,
-.afterwards,
-.afterwards-close {
+.intro-close {
 	-webkit-transition: box-shadow 0.2s;
     -moz-transition: box-shadow 0.2s;
     -o-transition: box-shadow 0.2s;
@@ -253,9 +251,7 @@ p {
 }
 
 .intro:hover,
-.intro-close:hover,
-.afterwards:hover,
-.afterwards-close:hover {
+.intro-close:hover {
 	cursor: pointer;
 }
 
@@ -287,12 +283,12 @@ p {
 	display: block;
 }
 
-.afterwards:hover {
+/*.afterwards:hover {
 	-webkit-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
 	-moz-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
 	box-shadow: -6px 0 7px rgba(0,0,0,0.3);
 }
-
+*/
 .title {
 	position: fixed;
 	top: 0;

@@ -185,3 +185,29 @@ iframe {
 	border-radius: 0px;
 	border-bottom: 1px solid #ffcaca;
 }
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1000px) { 
+
+	/*text styling*/
+	.ch-pull {
+		float: right;
+		width: 56%;
+		padding: 2%;
+		margin-right: 5%;
+		padding-bottom: 15px;
+		font-family: 'PT Serif Caption', serif;
+		font-size: 34px;
+		text-align: center;
+		line-height: 46px;
+		color: #ffcaca;
+
+		border: 1px solid #ffcaca;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+	}
+}
