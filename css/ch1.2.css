@@ -24,6 +24,14 @@ body {
 	height: 100%;
 }
 
+.web {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+
 /* 	=============================
 		TEXT STYLING
 	============================= */
@@ -226,6 +234,14 @@ iframe {
 	.ch-heading {
 		font-size: 38px;
 		line-height: 51px;
+	}
+
+	.web {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
 	}
 }
 
