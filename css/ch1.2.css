@@ -99,6 +99,11 @@ body {
 	color: blue;
 }
 
+#bio {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
 
 /* 	=============================
 		IMG
