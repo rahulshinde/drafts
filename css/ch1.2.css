@@ -193,21 +193,55 @@ iframe {
 @media (max-width: 1000px) { 
 
 	/*text styling*/
-	.ch-pull {
-		float: right;
-		width: 56%;
-		padding: 2%;
-		margin-right: 5%;
-		padding-bottom: 15px;
-		font-family: 'PT Serif Caption', serif;
-		font-size: 34px;
-		text-align: center;
-		line-height: 46px;
-		color: #ffcaca;
+	.ch-heading {
+		margin-top: 40px;
+		font-size: 40px;
+		line-height: 53px;
+	}
 
-		border: 1px solid #ffcaca;
-		border-radius: 10px;
-		-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
+	.ch-authors {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+	.ch-pull {
+		font-size: 30px;
+		line-height: 42px;
+	}
+}
+
+@media (max-width: 900px) { 
+
+	/*text styling*/
+	.ch-heading {
+		font-size: 38px;
+		line-height: 51px;
+	}
+}
+
+@media (max-width: 750px) { 
+
+	/*text styling*/
+	.ch-heading {
+		margin-top: 0;
+		font-size: 28px;
+		line-height: 41px;
+	}
+
+	.ch-authors {
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+	.ch-manifest {
+		font-family: 'PT Sans', sans-serif;
+		text-align: justify;
+		font-size: 23px;
+		line-height: 32px;
+	}
+
+	.ch-pull {
+		font-size: 24px;
+		line-height: 36px;
 	}
 }
