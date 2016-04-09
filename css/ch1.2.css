@@ -102,7 +102,7 @@ body {
 #bio {
 		font-size: 12px;
 		line-height: 20px;
-	}
+}
 
 
 /* 	=============================
@@ -249,4 +249,76 @@ iframe {
 		font-size: 24px;
 		line-height: 36px;
 	}
+}
+
+@media (max-width: 650px) { 
+
+	/*text styling*/
+	.ch-heading {
+		margin-top: -20px;
+		font-size: 28px;
+		line-height: 41px;
+	}
+
+	.ch-authors {
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+	.content-container {
+		border: none;
+	}
+
+	.ch-manifest {
+		padding-bottom: 10px;
+		font-size: 23px;
+		line-height: 32px;
+		border-radius: 0;
+		border-top: 1px solid #ffcaca;
+		border-bottom: 1px solid #ffcaca;
+	}
+
+	.ch-interview {
+		width: 90%;
+		margin-left: 0;
+		margin-bottom: 10px;
+		font-family: 'PT Serif Caption', serif;
+		text-align: left;
+		font-size: 16px;
+		line-height: 23px;
+	}
+
+	.interview1 {
+		font-style: italic;
+	}
+
+	.ch-pull {
+		float: left;
+		width: 90%;
+		padding: 2%;
+		margin-left: 3%;
+		margin-right: 0%;
+		padding-bottom: 15px;
+
+		border: none;
+		border-radius: 0;
+	}
+
+	.ch-a-descriptions {
+		margin-top: 20px;
+		margin-left: 15px;
+		margin-bottom: 20px;
+		font-family: 'PT Sans', sans-serif;
+		text-align: left;
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 400;
+		color: blue;
+	}
+
+	#bio {
+			font-size: 12px;
+			line-height: 20px;
+	}
+
 }
