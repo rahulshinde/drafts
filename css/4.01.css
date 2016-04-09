@@ -335,41 +335,6 @@ p {
 }
 
 /* 	=============================
-		LINKS
-	============================= */
-
-	.pub-link,
-	.vid-link {
-		position: fixed;
-		width: 120px;
-		height: 120px;
-		background-repeat: no-repeat;
-   	 	background-position: center;
-    	background-size: 100%;
-    	z-index: 100;
-	}
-
-	.pub-link {
-		bottom: 0;
-		right:180px;
-		background-image: url('../img/icons/pub.png');
-	}
-
-	.pub-link:hover {
-		background-image: url('../img/icons/pub-hov.png');
-	}
-
-	.vid-link {
-		bottom: 0;
-		right:80px;
-		background-image: url('../img/icons/vid.png');
-	}
-
-	.vid-link:hover {
-		background-image: url('../img/icons/vid-hov.png');
-	}
-
-/* 	=============================
 		TABLE Styling
 	============================= */
 
@@ -444,6 +409,19 @@ li {
     background-size: 60%;
 }
 
+.ch2,
+.ch3,
+.ch4,
+.ch5,
+.ch6,
+.ch7,
+.ch8,
+.ch9,
+.ch10 {
+	vertical-align: middle;
+	
+}
+
 li:nth-child(5) {
 	border-right: none;
 }
@@ -464,13 +442,13 @@ a:hover {
 	/*cursor: default;*/
 }
 
-.ch1:hover,
-.ch6:hover {
+.ch1:hover
+/*.ch6:hover*/ {
 	background-color: #ffe705;
 	background-image: none;
 }
 
-.ch2:hover,
+/*.ch2:hover,
 .ch7:hover {
 	background-color: #ffdb55;
 	background-image: none;
@@ -492,7 +470,8 @@ a:hover {
 .ch10:hover {
 	background-color: #ffcaca;
 	background-image: none;
-}
+}*/
+
 .tl {
 	border-radius: 10px 0 0 0;
 	-webkit-border-radius: 10px 0 0 0;
@@ -644,7 +623,7 @@ a:hover {
 		background-color: #ffe705;
 	}
 
-	.ch2:hover {
+	/*.ch2:hover {
 		background-color: #ffe12c;
 	}
 
@@ -678,7 +657,7 @@ a:hover {
 
 	.ch10:hover {
 		background-color: #ffcaca
-	}
+	}*/
 
 	.intro-text,
 	.intro-close {
