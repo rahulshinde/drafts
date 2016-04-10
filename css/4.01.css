@@ -856,6 +856,16 @@ a:hover {
 
 }
 
+@media (max-width: 376px) { 
+
+	.title h1 {
+		width: 80%;
+		margin-left: 10%;
+		line-height: 19px;
+		margin-top: 1px;
+	}
+}
+
 
 #fade {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
