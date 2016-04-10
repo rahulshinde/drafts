@@ -864,6 +864,10 @@ a:hover {
 		line-height: 19px;
 		margin-top: 1px;
 	}
+
+	h1.inner1 {
+		font-size: 20px;
+	}
 }
 
 
