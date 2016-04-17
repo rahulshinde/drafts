@@ -28,6 +28,10 @@ body {
 	display: block;
 }
 
+.middle {
+	display: none;
+}
+
 .mobile {
 	display: none;
 }
@@ -240,8 +244,12 @@ iframe {
 		display: none;
 	}
 
-	.mobile {
+	.middle {
 		display: block;
+	}
+
+	.mobile {
+		display: none;
 	}
 }
 
@@ -354,6 +362,18 @@ iframe {
 }
 
 @media (max-width: 550px) { 
+
+	.web {
+		display: none;
+	}
+
+	.middle {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
 
 	/*text styling*/
 	.ch-heading {
